@@ -5,6 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# bundle exec jekyll serve
+
 # Site Settings
 locale                   : "en-US"
 title                    : "L.C.P.M. Quaedvlieg"
@@ -178,7 +180,13 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  publications_journal:
+    output: true
+    permalink: /:collection/:path/
+  publications_workshop:
+    output: true
+    permalink: /:collection/:path/
+  publications_thesis:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -218,10 +226,28 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _publications_journal
   - scope:
       path: ""
-      type: publications
+      type: publications_journal
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications_workshop
+  - scope:
+      path: ""
+      type: publications_workshop
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications_thesis
+  - scope:
+      path: ""
+      type: publications_thesis
     values:
       layout: single
       author_profile: true

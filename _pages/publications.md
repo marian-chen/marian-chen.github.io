@@ -11,8 +11,26 @@ author_profile: true
 
 {% include base_path %}
 
-## Thesis
+{% if site.publications_journal.size != 0 %}
+## Peer-reviewed conferences and journals:
+{% endif %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% for post in site.publications_journal reversed %}
+  {% include publication.html %}
+{% endfor %}
+
+{% if site.publications_workshop.size != 0 %}
+## Workshop papers
+{% endif %}
+
+{% for post in site.publications_workshop reversed %}
+  {% include publication.html %}
+{% endfor %}
+
+{% if site.publications_thesis.size != 0 %}
+## Thesis
+{% endif %}
+
+{% for post in site.publications_thesis reversed %}
+  {% include publication.html %}
 {% endfor %}
