@@ -1,12 +1,12 @@
 ---
-enabled: false
+enabled: true
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of cool projects I've worked on, either about education of others or personal research interests.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Educational, Research]
 horizontal: false
 ---
 
@@ -25,14 +25,18 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
+    {% if project.visible %}
       {% include projects_horizontal.html %}
+    {% endif %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
+    {% if project.visible %}
       {% include projects.html %}
+    {% endif %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -46,14 +50,18 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
+    {% if project.visible %}
       {% include projects_horizontal.html %}
+    {% endif %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
+    {% if project.visible %}
       {% include projects.html %}
+    {% endif %}
     {%- endfor %}
   </div>
   {%- endif -%}

@@ -1,7 +1,7 @@
 ---
-enabled: true
+enabled: false
 permalink: /RL-Playground/
 title: Reinforcement Learning Book
 nav: true
-nav_order: 3
+nav_order: 4
 ---
