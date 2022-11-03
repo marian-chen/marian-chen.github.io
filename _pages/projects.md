@@ -1,8 +1,8 @@
 ---
 enabled: true
 layout: page
-title: Projects
 permalink: /projects/
+title: Projects
 description: A collection of cool projects I've worked on, either about education of others or personal research interests.
 nav: true
 nav_order: 2
