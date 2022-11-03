@@ -57,7 +57,7 @@
       year: Feb 2021 - Aug 2022
       description:
         - '<b>Competences:</b> Python, computer vision, planning, graph representational learning, (multi-agent) reinforcement learning'
-        - title: Projects
+        - title: projects
           contents:
           - Developed a pipeline for multi-camera multi-object tracking through production lines
           - Designed and created software for generating optimal production plant schematics
