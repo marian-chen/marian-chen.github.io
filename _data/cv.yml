@@ -1,0 +1,108 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Lars Chris Peter Maria Quaedvlieg
+    - name: Title
+      value: Research Assistant
+    - name: Date of Birth
+      value: 15th October 2001
+    - name: Languages
+      value: English (C2), Dutch (C2), German (B1), French (A2)
+    - name: Programming Languages
+      value: Python, Java, SQL, MATLAB, R, C, JavaScript, PHP
+    - name: Tools
+      value: Pytorch, TensorFlow, NumPy, Gym, Pandas, Seaborn, Matplotlib
+    - name: References
+      value: Can be found in the pdf-version of my CV (at the top of this webpage)
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Machine Learning
+      items:
+        - Deep Reinforcement Learning
+        - Hierarchical Reinforcement Learning
+        - Graph Representational Learning
+    - title: Planning algorithms
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MSc in Data Science
+      institution: École Polytechnique Fédérale de Lausanne (EPFL), Switzerland
+      year: Sep 2022 - Present
+      description:
+        - title: Current Courses
+          contents:
+            - (MATH-413) Statistics for Data Science
+            - "(EE-556) Mathematics of Data: from Theory to Computation"
+            - (CS-430) Intelligent Agents
+            - (CS-433) Machine Learning
+            - (HUM-432) How People Learn
+    - title: BSc in Data Science and Artificial Intelligence,
+      institution: Maastricht University, The Netherlands
+      year: Sep 2019 - Jul 2022
+      description:
+        - Graduated summa cum laude, 9.50/10 GPA
+        - Ranked 1st out of 104 students within a similar cohort
+        - Rewarded 9.5/10 for bachelor thesis "Multi-Agent Reinforcement Learning with Graph Neural Networks for Online Multi-Hoist Scheduling"
+        - Audited master-level courses surrounding Artificial Intelligence
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Part-Time Al Research Intern
+      institution: Aucos AG, Germany
+      year: Feb 2021 - Aug 2022
+      description:
+        - '<b>Competences:</b> Python, computer vision, planning, graph representational learning, (multi-agent) reinforcement learning'
+        - title: Projects
+          contents:
+          - Developed a pipeline for multi-camera multi-object tracking through production lines
+          - Designed and created software for generating optimal production plant schematics
+          - Devised an approach for optimizing the throughput of production lines
+
+- title: Awards and Honours
+  type: time_table
+  contents:
+    - title: Master's Excellence Fellowship, EPFL
+      year: Sep 2022
+      description:
+        - Two-year fellowship valued at 40,000 CHF, awarded to ~3% of admitted master students based on outstanding academic records
+    - title: Nomination Bachelor Thesis Award, Maastricht University
+      year: Jul 2022
+      description:
+        - Nomination for the best bachelor thesis in the bachelor Data Science and Artificial Intelligence, cohort 2019-2022 (decision in January 2023)
+    - title: Honours Student, Maastricht University
+      year: Feb 2021 - Aug 2022
+      description:
+        - Participation in the KE@Work honours programme, a part-time research internship in industry
+
+- title: Extracurricular Activities
+  type: time_table
+  contents:
+    - title: Public Relations Manager
+      institution: EPFL Google Developer Student Club, Switzerland
+      year: Sep 2022 - Present
+      description:
+    - title: Student Representative
+      institution: Department of Advanced Computing Sciences, The Netherlands
+      year: Sep 2020 - Sep 2022
+      description:
+        - One of two student representatives of 800, responsible for raising students' issues, ensuring program quality by renewing study material, extending the curriculum by adding new courses, and looking into internal regulations of the bachelor program
+    - title: Board Member
+      institution: MSV Incognito, The Netherlands
+      year: Jul 2020 - Jul 2022
+      description:
+        - Treasurer, secretary, and community manager at a department-wide study association comprised of 800 members. Organized educational and social events, and launched a series of on line sessions with academic and industry researchers
+    - title: Tutor
+      institution: Inforca, The Netherlands
+      year: Sep 2018 - Jul 2022
+      description:
+        - Tutoring and hosting group exam-preparation sessions for undergraduate students in computer science- and mathematics-related topics
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> writing (take for example my book about reinforcement learning), skiing, hiking, and field hockey

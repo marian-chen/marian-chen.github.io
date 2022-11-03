@@ -1,36 +1,19 @@
 ---
-layout: archive
-title: "Publications"
+enabled: true
+layout: page
 permalink: /publications/
-author_profile: true
+title: Publications
+description: Publications by categories in reversed chronological order.
+years: [2022]
+nav: true
+nav_order: 1
 ---
+<!-- _pages/publications.md -->
+<div class="publications">
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% if site.publications_journal.size != 0 %}
-## Peer-reviewed conferences and journals:
-{% endif %}
-
-{% for post in site.publications_journal reversed %}
-  {% include publication.html %}
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-{% if site.publications_workshop.size != 0 %}
-## Workshop papers
-{% endif %}
-
-{% for post in site.publications_workshop reversed %}
-  {% include publication.html %}
-{% endfor %}
-
-{% if site.publications_thesis.size != 0 %}
-## Thesis
-{% endif %}
-
-{% for post in site.publications_thesis reversed %}
-  {% include publication.html %}
-{% endfor %}
+</div>
