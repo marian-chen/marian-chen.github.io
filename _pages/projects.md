@@ -1,7 +1,7 @@
 ---
 enabled: true
 layout: page
-permalink: /projects/
+permalink: /Projects/
 title: Projects
 description: A collection of cool projects I've worked on, either about education of others or personal research interests.
 nav: true
