@@ -4,10 +4,10 @@ layout: about
 title: About
 permalink: /
 nav_order: 0
-subtitle: <a href='' style="text-decoration:none;cursor:default;">EPFL, Aucos AG, Maastricht University</a>
+subtitle: <p>Affiliated with EPFL, Aucos AG, Maastricht University</p>
 
 profile:
-  align: right
+  align: left
   image: profile.png
   image_circular: false # crops the image to make it circular
   address: >
