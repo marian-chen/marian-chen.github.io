@@ -8,6 +8,8 @@ img: assets/img/cern-lhc.jpg
 importance: 2
 category: Research
 developed_date: 2022-10-31 16:00:00-0000
+repository_name: lars-quaedvlieg/Reinforcement-Learning-Book
+github: https://github.com/lars-quaedvlieg/RL-Playground
 ---
 
 Keep checking for regular updates to get to know more about this project! The webpage will be updated as soon as 
