@@ -27,7 +27,7 @@ obtained my BSc in Data Science and Artificial Intelligence at
 learning as an AI research intern at Aucos AG.
 
 My research focus lies in machine learning and artificial intelligence, with a focus on reinforcement learning. Further 
-details about my research can be found on the publications page.
+details about my research can be found on the [publications](/publications/) page, where can you find my preprints.
 
 In my personal time, I very much enjoy writing (take for example my book about reinforcement learning), skiing, hiking, 
 and field hockey.

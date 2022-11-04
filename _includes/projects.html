@@ -13,6 +13,12 @@
           alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
+          {% if project.developed_date %}
+<!--          stylish-color-->
+          <span class="badge stylish-color text-uppercase align-middle" style="min-width: 75px;">
+                {{ project.developed_date | date: "%b %-d, %Y" }}
+          </span>
+          {% endif %}
           <h2 class="card-title">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
