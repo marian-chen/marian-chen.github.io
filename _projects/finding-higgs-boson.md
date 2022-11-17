@@ -8,12 +8,19 @@ img: assets/img/cern-lhc.jpg
 importance: 2
 category: Research
 developed_date: 2022-10-31 16:00:00-0000
-repository_name: lars-quaedvlieg/Reinforcement-Learning-Book
-github: https://github.com/lars-quaedvlieg/RL-Playground
+repository_name: CS-433/ml-project-1-cheruben-3
+github: https://github.com/CS-433/ml-project-1-cheruben-3
 ---
 
-Keep checking for regular updates to get to know more about this project! The webpage will be updated as soon as 
-feedback on the final product has been given.
+This project was completed for the [CS-433 Machine Learning](https://www.epfl.ch/labs/mlo/machine-learning-cs-433/) course 
+taught at EPFL in Fall 2022. The goal of this project is to learn to use basic machine learning concepts on a
+real-world dataset, start to finish. First, an **exploratory data analysis** is performed to understand your dataset and the
+features. Then, **feature processing and engineering** is done to clean the dataset and extract more meaningful information.
+Afterwards, linear and logistic regression are **implemented** with some tweaks and used on the data. Finally, the methods 
+are **analyzed and inference** is performed.
 
-This project was done for the [CS-433 Machine Learning](https://www.epfl.ch/labs/mlo/machine-learning-cs-433/) course 
-taught at EPFL in Fall 2022.
+The final report for this project is embedded below. It focuses on the most important points but does not exhaustively 
+cover everything done in the project. For more information on the project implementations, visit the GitHub repository 
+linked above.
+
+{% pdf "/assets/pdf/ml_epfl_project_1.pdf" height=1030px no_link %}
