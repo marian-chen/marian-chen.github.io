@@ -23,4 +23,16 @@ The final report for this project is embedded below. It focuses on the most impo
 cover everything done in the project. For more information on the project implementations, visit the GitHub repository 
 linked above.
 
+Here are some keypoint of the project:
+
+- Higgs Boson Classification
+- Ridge Regression
+- Ridge Logistic Regression
+- Kernels
+- Accelerated Gradient Descent with Restart
+
+The main finding from this project is that basic methods like linear or logistic regression can still be used to create 
+a powerful non-linear model for binary classification using kernel methods. This simple approach can compete with more 
+sophisticated models like neural networks and random forests while being much simpler to implement and understand.
+
 {% pdf "/assets/pdf/ml_epfl_project_1.pdf" height=1030px no_link %}
