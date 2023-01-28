@@ -6,7 +6,7 @@ title: Projects
 description: A collection of cool projects I've worked on, either about education of others or personal research interests.
 nav: true
 nav_order: 2
-display_categories: [Educational, Research]
+display_categories: [Research, Educational]
 horizontal: false
 ---
 

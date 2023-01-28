@@ -19,9 +19,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a student in the MSc in Data Science at 
-[École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/education/master/programs/data-science/), where I am the 
-PR Manager of the [Google Developer Student Club](https://gdsc.community.dev/epfl/). Before starting my master’s, I 
-obtained my BSc in Data Science and Artificial Intelligence at 
+[École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/education/master/programs/data-science/), where I do
+research in reinforcement learning. I am the  PR Manager of the [Google Developer Student Club](https://gdsc.community.dev/epfl/). 
+Before starting my master’s, I obtained my BSc in Data Science and Artificial Intelligence at 
 [Maastricht University](https://www.maastrichtuniversity.nl/education/bachelor/data-science-and-artificial-intelligence)
 . During my bachelor’s, I worked on applied research in multi-camera multi-object tracking and multi-agent reinforcement
 learning as an AI research intern at Aucos AG.

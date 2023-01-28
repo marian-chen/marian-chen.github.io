@@ -27,8 +27,8 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 # code highlighter theme
-highlight_theme_light: tango # github # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: fruity # native    # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_light: default # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: monokai # native    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
@@ -148,7 +148,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: 3 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -162,9 +162,9 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
     span:
-      line_numbers: true
+      line_numbers: false
     block:
-      line_numbers: true
+      line_numbers: false
       start_line: 1
 
 # Includes & excludes
