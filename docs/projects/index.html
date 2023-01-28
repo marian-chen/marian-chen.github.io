@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/tango.css" media="" id="highlight_theme_light" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/default.css" media="" id="highlight_theme_light" />
 
     <!-- Styles -->
     
@@ -35,7 +35,7 @@
     
     <!-- Dark Mode -->
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/fruity.css" media="none" id="highlight_theme_dark" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/monokai.css" media="none" id="highlight_theme_dark" />
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
@@ -119,13 +119,13 @@
 <!-- pages/projects.md -->
 <div class="projects">
   <!-- Display categorized projects -->
-  <h2 class="category">Educational</h2>
+  <h2 class="category">Research</h2>
   <!-- Generate cards for each project -->
   <div class="grid">
       <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/RL-Playground/">
+  <a href="/projects/lions-scheduling/">
       <div class="card hoverable">
 <figure>
 
@@ -133,7 +133,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/rl-playground.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/jssp.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -141,24 +141,20 @@
 
         <div class="card-body">
           
-          <h2 class="card-title">The RL Playground</h2>
-          <p class="card-text">An interactive book about Reinforcement Learning written by me</p>
+<!--          stylish-color-->
+          <span class="badge stylish-color text-uppercase align-middle" style="min-width: 75px;">
+                In progress
+          </span>
+          
+          <h4 class="card-title">Learning Priority Dispatching Rules for the Job-Shop Scheduling Problem</h4>
+          <p class="card-text">This project uses graph neural networks to exploit the natural graph representation of the Job-Shop Scheduling Problem. Combined with deep reinforcement learning, high-quality priority dispatching rules are learned</p>
           <div class="row ml-1 mr-1 p-0">
-<div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/lars-quaedvlieg/RL-Playground" target="_blank" rel="noopener noreferrer"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </a>
 </div>
     
-  </div>
-  <h2 class="category">Research</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
       <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
@@ -180,12 +176,17 @@
           
 <!--          stylish-color-->
           <span class="badge stylish-color text-uppercase align-middle" style="min-width: 75px;">
-                Work In Progress
+                Dec 22, 2022
           </span>
           
-          <h2 class="card-title">Traffic Flow Predictions using Graph Neural Networks for Autonomous Driving</h2>
+          <h4 class="card-title">Autonomous Lane Changing using Deep Reinforcement Learning with Graph Neural Networks</h4>
           <p class="card-text">The aim of this project is to use advanced machine learning methods to solve problems within autonomous driving</p>
           <div class="row ml-1 mr-1 p-0">
+<div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/CS-433/ml-project-2-gan_control" target="_blank" rel="noopener noreferrer"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -216,12 +217,82 @@
                 Oct 31, 2022
           </span>
           
-          <h2 class="card-title">Discovering the Higgs Boson using Machine Learning</h2>
+          <h4 class="card-title">Discovering the Higgs Boson using Machine Learning</h4>
           <p class="card-text">This project studies different machine learning models applied to the data collected from the experiments performed with the CERN particle accelerator with the aim of discovering the Higgs boson particle</p>
           <div class="row ml-1 mr-1 p-0">
 <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
                 <a href="https://github.com/CS-433/ml-project-1-cheruben-3" target="_blank" rel="noopener noreferrer"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+    
+      <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/3d-bin-packing/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/3d-bin-packing.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          
+<!--          stylish-color-->
+          <span class="badge stylish-color text-uppercase align-middle" style="min-width: 75px;">
+                Jan 22, 2020
+          </span>
+          
+          <h4 class="card-title">Algorithms for the 3D bounded knapsack problem with polyominoes</h4>
+          <p class="card-text">This project uses different algorithms to create fast, high-quality solutions to the 3D bin packing problem with one bin. Most notably, a modified version of dancing links was implemented, which often reaches pratically optimal solutions.</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+    
+  </div>
+  <h2 class="category">Educational</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+      <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/RL-Playground/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/rl-playground.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          
+          <h4 class="card-title">The RL Playground</h4>
+          <p class="card-text">An interactive book about Reinforcement Learning written by me</p>
+          <div class="row ml-1 mr-1 p-0">
+<div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/lars-quaedvlieg/RL-Playground" target="_blank" rel="noopener noreferrer"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
           </div>
@@ -242,7 +313,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2022 Lars C.P.M. Quaedvlieg. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a>. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+        © Copyright 2023 Lars C.P.M. Quaedvlieg. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a>. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>
