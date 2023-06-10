@@ -1,7 +1,7 @@
 ---
 visible: true
 layout: page
-title: Learning Priority Dispatching Rules for the Job-Shop Scheduling Problem
+title: Skill-Based Job Allocation Optimization in Hospitals using Reinforcement Learning with Graph Neural Networks
 authors: Lars. C.P.M. Quaedvlieg
 description: This project uses graph neural networks to exploit the natural graph representation of the Job-Shop Scheduling Problem. Combined with deep reinforcement learning, high-quality priority dispatching rules are learned
 img: assets/img/jssp.png

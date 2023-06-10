@@ -15,7 +15,7 @@
         <div class="col-md-12">
         {%- endif -%}
           <div class="card-body">
-            <h3 class="card-title">{{ project.title }}</h3>
+            <h4 class="card-title">{{ project.title }}</h4>
             {% if project.developed_date %}
             <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
                 {{ project.developed_date | date: "%b %-d, %Y" }}
