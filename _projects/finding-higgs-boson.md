@@ -5,7 +5,7 @@ title: Discovering the Higgs Boson using Machine Learning
 authors: Lars. C.P.M. Quaedvlieg, Anton Pirhonen, Ana S. Leiva
 description: This project studies different machine learning models applied to the data collected from the experiments performed with the CERN particle accelerator with the aim of discovering the Higgs boson particle
 img: assets/img/cern-lhc.jpg
-importance: 3
+importance: 99
 category: Research
 developed_date: 2022-10-31 16:00:00-0000
 repository_name: CS-433/ml-project-1-cheruben-3

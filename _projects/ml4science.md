@@ -5,7 +5,7 @@ title: Autonomous Lane Changing using Deep Reinforcement Learning with Graph Neu
 authors: Lars. C.P.M. Quaedvlieg, Arvind M. Satish, and Somesh Mehra
 description: The aim of this project is to use advanced machine learning methods to solve problems within autonomous driving
 img: assets/img/traffic-flow-gnns.png
-importance: 2
+importance: 98
 category: Research
 developed_date: 2022-12-22 16:00:00-0000
 repository_name: CS-433/ml-project-2-gan_control

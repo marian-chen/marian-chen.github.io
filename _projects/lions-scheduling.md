@@ -3,9 +3,9 @@ visible: true
 layout: page
 title: Skill-Based Job Allocation Optimization in Hospitals using Reinforcement Learning with Graph Neural Networks
 authors: Lars. C.P.M. Quaedvlieg
-description: This project uses graph neural networks to exploit the natural graph representation of the Job-Shop Scheduling Problem. Combined with deep reinforcement learning, high-quality priority dispatching rules are learned
+description: This project uses reinforcement learning and graph neural networks to schedule task assignments
 img: assets/img/jssp.png
-importance: 1
+importance: 96
 category: Research
 developed_date: In progress
 ---

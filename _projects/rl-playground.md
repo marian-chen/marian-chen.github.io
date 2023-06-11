@@ -2,10 +2,10 @@
 visible: true
 layout: page
 title: The RL Playground
-description: An interactive book about Reinforcement Learning written by me
+description: The goal is to create an interactive book about reinforcement learning
 img: assets/img/rl-playground.png
 redirect: /RL-Playground/
-importance: 0
+importance: 100
 github: https://github.com/lars-quaedvlieg/RL-Playground
 category: Educational
 ---

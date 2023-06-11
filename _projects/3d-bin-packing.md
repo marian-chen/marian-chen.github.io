@@ -3,9 +3,9 @@ visible: true
 layout: page
 title: Algorithms for the 3D bounded knapsack problem with polyominoes
 authors: Lars. C.P.M. Quaedvlieg, Ngoc Hoang Trieu, Sander op den Camp, Daniël van der Velde, Martin Aviles
-description: This project uses different algorithms to create fast, high-quality solutions to the 3D bin packing problem with one bin. Most notably, a modified version of dancing links was implemented, which often reaches pratically optimal solutions.
+description: This project uses different algorithms to create fast, high-quality solutions to the 3D bin packing problem with one bin
 img: assets/img/3d-bin-packing.png
-importance: 4
+importance: 100
 category: Research
 developed_date: 2020-01-22 16:00:00-0000
 ---
