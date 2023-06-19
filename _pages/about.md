@@ -4,7 +4,7 @@ layout: about
 title: About
 permalink: /
 nav_order: 0
-subtitle: <h5>Affiliated with EPFL, Aucos AG, Maastricht University</h5>
+subtitle: <h5>Affiliated with EPFL, Rounded.News, Aucos AG, Maastricht University</h5>
 
 profile:
   align: right
@@ -23,6 +23,9 @@ where I also do research at the [Laboratory for Information and Inference System
 My current research 🔬 revolves around **graph neural networks**, **reinforcement learning**, and **self-supervised learning** 
 for combinatorial optimization problems. Prior to my master's degree, I completed a BSc in Data Science and Artificial 
 Intelligence 🎓 at [Maastricht University](https://www.maastrichtuniversity.nl/education/bachelor/data-science-and-artificial-intelligence).
+
+I am also currently involved with [Rounded.News](https://rounded.news) as the Chief AI Strategist, a start-up attempting
+to break filter bubbles using AI-powered news 📰.
 
 During my bachelor's studies, I had the opportunity to delve into applied research in various areas. As an AI research 
 intern at Aucos AG, I worked on projects involving **multi-camera multi-object tracking**, and **multi-agent systems**.

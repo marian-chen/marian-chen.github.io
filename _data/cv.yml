@@ -63,6 +63,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Chief AI Strategist
+      institution: Rounded.News, Sweden
+      year: May '23 - Present
+      description:
+        - At Rounded.News, we're breaking filter bubbles with AI-powered news. Our platform gives you a personalized news overview that showcases a range of opinions and helps you stay informed on topics that matter most to you
     - title: Research Assistant
       institution: Laboratory for Information and Inference Systems @ EPFL, Switzerland
       year: Nov '22 - Present
@@ -72,6 +77,7 @@
           contents:
             - Co-authored research about self-supervised learning for combinatorial optimization problems and submitted it to a conference
             - Currently working on a project about hospital staff scheduling using machine learning methods
+
     - title: Part-Time Al Research Intern
       institution: Aucos AG, Germany
       year: Feb '21 - Aug '22
