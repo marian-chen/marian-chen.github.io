@@ -63,6 +63,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: InstaDeep, France
+      year: July '23 - Present
+      description:
+        - Internship about Offline Reinforcement Learning for Combinatorial Optimization at InstaDeep's Research department in Paris. The objective is to design and implement a multi-game agent trained on environments from the <a href="https://github.com/instadeepai/jumanji">Jumanji suite</a>, assessing the impact of architectural choices on performance and generalization capabilities.
     - title: Chief AI Strategist
       institution: Rounded.News, Sweden
       year: May '23 - Present
@@ -93,9 +98,13 @@
   type: time_table
   contents:
     - title: Master's Excellence Fellowship, EPFL
-      year: Sep '22
+      year: Sep '23, Sep '22
       description:
-        - Two-year fellowship valued at 40,000 CHF, awarded to ~3% of admitted master students based on outstanding academic records
+        - Two-year fellowship valued at 40,000 CHF, awarded to ~3% of EPFL master students based on outstanding academic records
+    - title: CS-503 Visual Intelligence Best Project Award
+      year: Jul '23
+      description:
+        - Secured first place among 14 teams, winning a free conference registration. <a href="https://arvind6599.github.io/PredatorPreyWebsite/">Link to project</a>
     - title: Best Bachelor's Thesis Award 2023, Maastricht University
       year: Nov '22
       description:
@@ -103,7 +112,7 @@
     - title: Honours Student, Maastricht University
       year: Feb '21 - Aug '22
       description:
-        - Participation in the KE@Work honours programme, a part-time research internship in industry
+        - Participation in the KE@Work honours programme, a part-time research internship in industry alongside the bachelor's programme
 
 - title: Extracurricular Activities
   type: time_table
