@@ -4,7 +4,7 @@ layout: about
 title: About
 permalink: /
 nav_order: 0
-subtitle: <h5>Affiliated with EPFL, Rounded.News, Aucos AG, Maastricht University</h5>
+subtitle: <h5>Affiliated with <b>InstaDeep</b>, <b>EPFL</b>, <b>Rounded.News</b>, Aucos AG, Maastricht University</h5>
 
 profile:
   align: right
@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website 👋! I'm currently pursuing an MSc in Data Science at [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/education/master/programs/data-science/),
+Welcome to my personal website! I'm currently pursuing an MSc in Data Science at [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/education/master/programs/data-science/),
 where I also do research at the [Laboratory for Information and Inference Systems](https://www.epfl.ch/labs/lions/).
-My current research 🔬 revolves around **graph neural networks**, **reinforcement learning**, and **self-supervised learning** 
+My current research revolves around **graph neural networks**, **reinforcement learning**, and **self-supervised learning** 
 for combinatorial optimization problems. Prior to my master's degree, I completed a BSc in Data Science and Artificial 
 Intelligence 🎓 at [Maastricht University](https://www.maastrichtuniversity.nl/education/bachelor/data-science-and-artificial-intelligence).
 
@@ -35,10 +35,10 @@ particular emphasis on reinforcement learning and multi-task learning. For more 
 free to explore the [publications](/publications/) and [projects](/projects/) pages!
 
 Additionally, I am committed to leveraging my skills and knowledge to create positive impact and make a difference in 
-people's lives 🌍💡. I believe in the power of collaboration, innovation, and entrepreneurship to drive meaningful 
-change 🤝. Through my involvement in various associations, hackathons, and initiatives, I have gained invaluable 
+people's lives. I believe in the power of collaboration, innovation, and entrepreneurship to drive meaningful 
+change. Through my involvement in various associations, hackathons, and initiatives, I have gained invaluable 
 experience in addressing real-world challenges and contributing to sustainability efforts ♻. I am excited about 
-opportunities to further expand my horizons and contribute to projects that align with this ideology 🚀.
+opportunities to further expand my horizons and contribute to projects that align with this ideology.
 
 When I'm not doing research or working on my projects, you can find me skiing down slopes ⛷, exploring scenic hiking 
 trails 🥾🏞️, or participating in field hockey 🏑. 
