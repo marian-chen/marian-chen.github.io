@@ -9,9 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Optimizing Job Allocation using Reinforcement Learning with Graph Neural Networks | Lars C.P.M. Quaedvlieg</title>
+    <title>Strategic Dominion: AI-Powered Risk Conquest | Lars C.P.M. Quaedvlieg</title>
     <meta name="author" content="Lars C.P.M. Quaedvlieg" />
-    <meta name="description" content="This project uses reinforcement learning and graph neural networks to schedule job assignments." />
+    <meta name="description" content="Strategic Dominion is a project where we used the power of machine learning to develop agents for the classic game of Risk, enabling intelligent AI bots to engage in strategic conquests." />
 
 
     <!-- Bootstrap & MDB -->
@@ -31,7 +31,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/projects/lions-scheduling/">
+    <link rel="canonical" href="http://localhost:4000/projects/risk-game/">
     
     <!-- Dark Mode -->
     
@@ -108,44 +108,80 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Optimizing Job Allocation using Reinforcement Learning with Graph Neural Networks</h1>
+            <h1 class="post-title">Strategic Dominion: AI-Powered Risk Conquest</h1>
             
-            <p><b>Authors: Lars. C.P.M. Quaedvlieg</b></p>
+            <p><b>Authors: Lars C.P.M. Quaedvlieg, Ramon Reszat, Joan Botzev, Daniel Roder, Michael Balzer, Sree Kotala</b></p>
             
             
-            <p class="post-description">This project uses reinforcement learning and graph neural networks to schedule job assignments.</p>
+            <p class="post-description">Strategic Dominion is a project where we used the power of machine learning to develop agents for the classic game of Risk, enabling intelligent AI bots to engage in strategic conquests.</p>
           </header>
 
           <article>
-            <p>I am happy to share that, for this research project, I joined the <a href="https://www.epfl.ch/labs/lions/" target="_blank" rel="noopener noreferrer">Laboratory for Information and Inference Systems</a> 
-during the Spring 2023 semester. My work, supervised by <a href="https://people.epfl.ch/grigorios.chrysos" target="_blank" rel="noopener noreferrer">Grigorios Chrysos</a>
-and <a href="https://www.epfl.ch/labs/lions/people/postdocs/efstratios-stratis-skoulakis/" target="_blank" rel="noopener noreferrer">Stratis Skoulakis</a>, is on the
-use of graph neural networks and reinforcement learning for scheduling problems. More specifically, we will focus on a job
-assignment problem for hospitals.</p>
+            <p>This is group project was completed in Fall 2021 for the Project 2-1 course at my bachelor’s <a href="https://www.maastrichtuniversity.nl/education/bachelor/data-science-and-artificial-intelligence/courses-curriculum" target="_blank" rel="noopener noreferrer">Data Science and Artificial Intelligence</a>
+at Maastricht University.</p>
 
-<p>Efficient job allocation is a critical factor in various domains such as healthcare, logistics, and manufacturing, as
-it optimizes resource utilization and ensures timely task completion. This report introduces and investigates the Job 
-Allocation Problem (JAP), which involves assigning a maximum number of jobs to available resources while considering
-multiple constraints.</p>
+<h2 id="phase-1-developing-the-game">Phase 1: Developing the Game</h2>
 
-<p>The contributions of this project are twofold. Firstly, it showcases the effectiveness of Reinforcement Learning (RL) in overcoming the 
-challenges posed by annotated data requirements, providing a practical and scalable approach to job allocation. By
-directly learning from simulations, the model demonstrates the ability to allocate jobs effectively without extensive
-manual labeling, thus enhancing efficiency.</p>
+<p>In the first phase of the project, we spent our time developing the game in Java and laying out the backbone for the game-playing
+agents. We utilized many useful design patterns to make sure the game mechanics, the bot, and the user-interface were mainly
+disconnected and could be developed simultaneously.</p>
 
-<p>Secondly, the utilization of GNNs allows the model to leverage the inherent graph structure of the JAP. This approach 
-builds upon previous research where GNNs have shown promising results in solving combinatorial optimization problems.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="text-center">
+            <figure>
 
-<p>Experimental evaluations conducted on both real-world and synthetic datasets validate the effectiveness of the proposed
-approach. The model’s superior performance over baseline algorithms highlights its potential for enhancing job 
-allocation in various domains. Furthermore, out-of-distribution testing reveals the model’s generalizability, 
-showcasing its ability to handle diverse scenarios beyond the training data.</p>
+  <picture>
+    
 
-<p>The final report has been embedded below. It goes into detail about the problem, our approach, other related research,
-and experiments.</p>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/phase1-risk.gif" class="center img-fluid rounded z-depth-1" width="auto" height="auto" title="Example of the solution" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-<style> .pdf-embed-wrap-2d8a5da5-61d2-462d-b4c5-dd4f3ca88bb6 { display:flex; flex-direction: column; width: 100%; height: 1030px; } .pdf-embed-container-2d8a5da5-61d2-462d-b4c5-dd4f3ca88bb6 { height: 100%; } .pdf-embed-container-2d8a5da5-61d2-462d-b4c5-dd4f3ca88bb6 iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-2d8a5da5-61d2-462d-b4c5-dd4f3ca88bb6"> <div class="pdf-embed-container-2d8a5da5-61d2-462d-b4c5-dd4f3ca88bb6"> <iframe src="/assets/pdf/ml_semester_project.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+  </picture>
+
+</figure>
+
+        </div>
+    </div>
+</div>
+<div class="caption">
+    This GIF shows an example of the product at the end of this phase.
+</div>
+
+<h2 id="phase-2-and-3">Phase 2 and 3:</h2>
+
+<p>The remaining two phases were spent both on an improved user-interface and the development of two bot players. For the bots,
+we used Double Deep Q-Learning in order to estimate the Q-values of certain actions. Since the game is very stochastic, partially observable, and multi-agent, some assumptions
+had to be made in order to make developing a bot feasible. Instead of being concerned with global actions, the agent 
+learned, for example, the number of troops to choose for an attack. This is still useful for the bot while playing the game, but
+simplifies the state and action spaces dramatically.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="text-center">
+            <figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/phase2-risk.gif" class="center img-fluid rounded z-depth-1" width="auto" height="auto" title="Example of the solution" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        </div>
+    </div>
+</div>
+<div class="caption">
+    This GIF shows an example of the final product.
+</div>
+
+<p>If you are interested in the details of the project, the final report for this project is attached below!</p>
+
+<style> .pdf-embed-wrap-9b39c716-9716-4d90-804e-96756ec1bbe5 { display:flex; flex-direction: column; width: 100%; height: 1030px; } .pdf-embed-container-9b39c716-9716-4d90-804e-96756ec1bbe5 { height: 100%; } .pdf-embed-container-9b39c716-9716-4d90-804e-96756ec1bbe5 iframe { width: 100%; height: 100%; } </style>
+<div class="pdf-embed-wrap-9b39c716-9716-4d90-804e-96756ec1bbe5"> <div class="pdf-embed-container-9b39c716-9716-4d90-804e-96756ec1bbe5"> <iframe src="/assets/pdf/dke_project21.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
 
           </article>
 
