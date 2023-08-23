@@ -4,46 +4,46 @@ layout: about
 title: About
 permalink: /
 nav_order: 0
-subtitle: <h5>Affiliated with <b>InstaDeep</b>, <b>EPFL</b>, <b>Rounded.News</b>, Aucos AG, Maastricht University</h5>
+subtitle: <h5>Affiliated with <b>Maastricht University</b>, <b>Aucos AG</b>
 
 profile:
   align: right
   image: pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Maastricht, The Netherlands</p>
+    <p>Maastricht, NL</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website! I'm currently pursuing an MSc in Data Science at [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/education/master/programs/data-science/),
-where I also do research at the [Laboratory for Information and Inference Systems](https://www.epfl.ch/labs/lions/).
-My current research revolves around **graph neural networks**, **reinforcement learning**, and **self-supervised learning** 
-for combinatorial optimization problems. Prior to my master's degree, I completed a BSc in Data Science and Artificial 
-Intelligence 🎓 at [Maastricht University](https://www.maastrichtuniversity.nl/education/bachelor/data-science-and-artificial-intelligence).
+Welcome to my website! I am currently in my final year of the [BSc Data Science & Artificial Intelligence](https://curriculum.maastrichtuniversity.nl/education/bachelor/data-science-and-artificial-intelligence)
+degree program at Maastricht University, where I am on track for the highest distinctions, an endeavor for which is underscored by my recognition as a recipient of the [Nutanix Advancing Women in Technology Scholarship](https://www.nutanix.com/scholarships).
 
-I am also currently involved with [Rounded.News](https://rounded.news) as the Chief AI Strategist, a start-up attempting
-to break filter bubbles using AI-powered news 📰.
 
-During my bachelor's studies, I had the opportunity to delve into applied research in various areas. As an AI research 
-intern at Aucos AG, I worked on projects involving **multi-camera multi-object tracking**, and **multi-agent systems**.
+Beyond my degree program, I am highly committed to broadening my field of expertise. As an intern of the Research & Development 
+department at [Aucos AG](https://www.aucos.de/en/home-2/), I am working on an optimization project centered around modeling 
+and **constraint programming**. Furthermore, I recently completed the [Artificial Intelligence and Machine Learning: Advanced Applications of Neural Networks and Deep Learning](https://www.lmh.ox.ac.uk/artificial-intelligence-and-machine-learning) 
+program with a grade of A+ at Lady Margaret Hall, [University of Oxford](https://www.ox.ac.uk/). During this program, I
+cumulated theoretical and practical expertise of foundational concepts in **generative AI**, **reinforcement learning**,
+and **graph neural networks**. More specifically, my fields of interests revolve around combinatorial optimization problems. 
+For more details about my previous projects, please feel free to explore my [projects](/projects/) page!
 
-My primary research interests lie within the exciting fields of machine learning and artificial intelligence, with a 
-particular emphasis on reinforcement learning and multi-task learning. For more in-depth information about my work, feel
-free to explore the [publications](/publications/) and [projects](/projects/) pages!
 
-Additionally, I am committed to leveraging my skills and knowledge to create positive impact and make a difference in 
-people's lives. I believe in the power of collaboration, innovation, and entrepreneurship to drive meaningful 
-change. Through my involvement in various associations, hackathons, and initiatives, I have gained invaluable 
-experience in addressing real-world challenges and contributing to sustainability efforts ♻. I am excited about 
-opportunities to further expand my horizons and contribute to projects that align with this ideology.
+Outside of academia, I am passionate about leveraging my skills to create positive impacts in my community, having served two
+years as the student council chair and representative for 3,200 students on the Faculty Board alongside the Dean 
+and Director at the [Faculty of Science & Engineering](https://www.maastrichtuniversity.nl/about-um/faculties/faculty-science-and-engineering).
+Furthermore, I co-founded and served as the internal commissioner of the [Science & Engineering Association Limburg](https://fse-seal.nl/),
+a faculty-wide study association dedicated to enriching students' academic, professional, and social experiences.
 
-When I'm not doing research or working on my projects, you can find me skiing down slopes ⛷, exploring scenic hiking 
-trails 🥾🏞️, or participating in field hockey 🏑. 
 
-Thank you for visiting my personal website. I welcome collaboration and invite you to reach out (see the bottom of this
-page), whether you have ideas for impactful projects, opportunities for partnership, or simply want to connect!
+Away from a computer screen, you can find me testing new recipes from different countries, binging geography and history
+channels, or learning a new language (currently fluent in English, Mandarin, Spanish, German, and Swiss German)!
+
+
+Thank you for visiting my website. I encourage you to reach out (see the bottom of this page) if you have any opportunities
+for partnership or simply want to connect!
+
 
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
