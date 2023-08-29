@@ -2,19 +2,19 @@
   type: map
   contents:
     - name: Full Name
-      value: Lars Chris Peter Maria Quaedvlieg
+      value: Marian Chen
     - name: Title
-      value: Research Intern & Research Assistant
+      value: Research Intern
     - name: Date of Birth
-      value: 15th October 2001
+      value: 11 April 2002
     - name: Languages
-      value: English (C2), Dutch (C2), German (B1), French (A2)
+      value: English (Native), German (Fluent), Spanish (Fluent), Mandarin (Fluent), Swiss German (Proficient)
     - name: Programming Languages
-      value: Python, Java, SQL, MATLAB, R, C, C++, JavaScript, PHP
+      value: Python, Java, SQL, MATLAB, R
     - name: Tools
-      value: Pytorch, NumPy, Gym, Pandas, Seaborn, Matplotlib, TensorFlow
-    - name: References
-      value: Can be found in the pdf-version of my CV (at the top of this webpage)
+      value: PyTorch, NumPy, Pandas, Matplotlib, OR-Tools, OpenCV, Gym
+#    - name: References
+#      value: Can be found in the pdf-version of my CV (at the top of this webpage)
 
 #- title: Academic Interests
 #  type: nested_list
@@ -25,12 +25,11 @@
 #        - Hierarchical Reinforcement Learning
 #        - Graph Representational Learning
 #    - title: Planning algorithms
-- title: Research Interests (not all-encompassing)
+- title: Academic Interests
   type: list
   contents:
-    - Deep Reinforcement Learning
+    - Optimization
     - Graph Neural Networks
-    - Multi-Task Learning
 
 - title: Education
   type: time_table

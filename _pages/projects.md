@@ -3,14 +3,15 @@ enabled: true
 layout: page
 permalink: /projects/
 title: Projects
-description: Over the years, I've had the privilege of being involved in a wide range of exciting and cool projects. Below I list some noteworthy ones that I have had the opportunity to work on.
+description: This page serves to display notable projects I have had the privilege to work on throughout my professional career.
 nav: true
 nav_order: 2
-display_categories: [Research, Educational]
+#display_categories: [Research, Educational]
+display_categories: [Coming soon!]
 horizontal: false
 ---
 
-[//]: # (Could be cool to do Aucos AG projects as well)
+[//]: #
 
 <!-- pages/projects.md -->
 <div class="projects">

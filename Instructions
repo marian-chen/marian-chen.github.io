@@ -1,0 +1,19 @@
+Applying changes:
+1. Run in terminal "bundle exec jekyll serve --livereload", access server link
+2. Push changes to Git
+3. Copy all content from _site folder to replace all content from docs folder
+4. Remove docs folder from itself
+5. Ensure all folders/files are in lowercase
+6. Push to Git
+
+Inserting publications:
+1. Change enabled to 'true' in '_pages/publications.md'
+2. Insert paper in '_bibliography/papers.bib' with selected set to 'true'
+3. To enable 'Selected Publications' in About page, uncomment line 3 in '_includes/selected_papers.html'
+
+Updating resume:
+1. Update pdf in 'assets/pdf/Resume.pdf'
+2. Update information in '_data/cv.yml'
+
+Tips:
+- Search for file locations by pressing ctrl+shift+F, pressing 'In Project', and inputting relevant keywords

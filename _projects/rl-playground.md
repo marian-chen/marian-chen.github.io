@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 layout: page
 title: The RL Playground
 description: The goal is to create an interactive book about reinforcement learning

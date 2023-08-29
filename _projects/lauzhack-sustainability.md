@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 layout: page
 title: EmissionAware
 description: For the LauzHack Sustainability 2023 hackathon. Campus sustainability made personal - track your emissions, improve your impact

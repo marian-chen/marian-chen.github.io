@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 layout: page
 title: Investigating Predator-Prey Dynamics through Simulated Vision and Reinforcement Learning
 authors: Lars C.P.M. Quaedvlieg, Arvind Menon, Somesh Mehra

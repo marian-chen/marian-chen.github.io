@@ -5,5 +5,5 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
-cv_pdf: 'Resume Lars Quaedvlieg.pdf'
+cv_pdf: 'Resume.pdf'
 ---

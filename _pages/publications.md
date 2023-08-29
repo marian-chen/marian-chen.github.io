@@ -1,5 +1,5 @@
 ---
-enabled: true
+enabled: false
 layout: page
 permalink: /publications/
 title: Publications

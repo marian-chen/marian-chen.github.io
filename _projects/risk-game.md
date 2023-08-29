@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 layout: page
 title: "Strategic Dominion: AI-Powered Risk Conquest"
 authors: Lars C.P.M. Quaedvlieg, Ramon Reszat, Joan Botzev, Daniel Roder, Michael Balzer, Sree Kotala

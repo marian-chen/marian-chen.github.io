@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 layout: page
 title: Algorithms for the 3D bounded knapsack problem with polyominoes
 authors: Lars C.P.M. Quaedvlieg, Ngoc Hoang Trieu, Sander op den Camp, Daniël van der Velde, Martin Aviles

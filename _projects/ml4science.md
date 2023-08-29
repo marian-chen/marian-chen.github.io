@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 layout: page
 title: Autonomous Lane Changing using Deep Reinforcement Learning with Graph Neural Networks
 authors: Lars. C.P.M. Quaedvlieg, Arvind M. Satish, and Somesh Mehra

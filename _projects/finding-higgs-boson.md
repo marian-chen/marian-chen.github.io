@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 layout: page
 title: Discovering the Higgs Boson using Machine Learning
 authors: Lars. C.P.M. Quaedvlieg, Anton Pirhonen, Ana S. Leiva

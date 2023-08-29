@@ -26,7 +26,7 @@ Beyond my degree program, I am highly committed to broadening my field of expert
 department at [Aucos AG](https://www.aucos.de/en/home-2/), I am working on an optimization project centered around modeling 
 and **constraint programming**. Furthermore, I recently completed the [Artificial Intelligence and Machine Learning: Advanced Applications of Neural Networks and Deep Learning](https://www.lmh.ox.ac.uk/artificial-intelligence-and-machine-learning) 
 program with a grade of A+ at Lady Margaret Hall, [University of Oxford](https://www.ox.ac.uk/). During this program, I
-cumulated theoretical and practical expertise of foundational concepts in **generative AI**, **reinforcement learning**,
+cultivated theoretical and practical expertise of foundational concepts in **generative AI**, **reinforcement learning**,
 and **graph neural networks**. More specifically, my fields of interests revolve around combinatorial optimization problems. 
 For more details about my previous projects, please feel free to explore my [projects](/projects/) page!
 

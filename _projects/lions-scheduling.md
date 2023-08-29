@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 layout: page
 title: Optimizing Job Allocation using Reinforcement Learning with Graph Neural Networks
 authors: Lars. C.P.M. Quaedvlieg
