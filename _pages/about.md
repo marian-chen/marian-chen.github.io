@@ -23,12 +23,12 @@ degree program at Maastricht University, where I am on track for the highest dis
 
 
 Beyond my degree program, I am highly committed to broadening my field of expertise. As an intern of the Research & Development 
-department at [Aucos AG](https://www.aucos.de/en/home-2/), I am working on an optimization project centered around modeling 
-and **constraint programming**. Furthermore, I recently completed the [Artificial Intelligence and Machine Learning: Advanced Applications of Neural Networks and Deep Learning](https://www.lmh.ox.ac.uk/artificial-intelligence-and-machine-learning) 
+department at [Aucos AG](https://www.aucos.de/en/home-2/), I am working on an optimization project centered around 
+**constraint programming**. Furthermore, I recently completed the [Artificial Intelligence and Machine Learning: Advanced Applications of Neural Networks and Deep Learning](https://www.lmh.ox.ac.uk/artificial-intelligence-and-machine-learning) 
 program with a grade of A+ at Lady Margaret Hall, [University of Oxford](https://www.ox.ac.uk/). During this program, I
-cultivated theoretical and practical expertise of foundational concepts in **generative AI**, **reinforcement learning**,
-and **graph neural networks**. More specifically, my fields of interests revolve around combinatorial optimization problems. 
-For more details about my previous projects, please feel free to explore my [projects](/projects/) page!
+cultivated theoretical and practical expertise of foundational concepts in **generative models**, **reinforcement learning**,
+and **graph neural networks**. Specifically, however, my fields of interests revolve around combinatorial optimization problems,
+graph neural networks, and reinforcement learning.
 
 
 Outside of academia, I am passionate about leveraging my skills to create positive impacts in my community, having served two

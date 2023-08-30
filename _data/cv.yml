@@ -8,11 +8,11 @@
     - name: Date of Birth
       value: 11 April 2002
     - name: Languages
-      value: English (Native), German (Fluent), Spanish (Fluent), Mandarin (Fluent), Swiss German (Proficient)
+      value: English (Native), German (Fluent), Spanish (Fluent), Mandarin (Fluent)
     - name: Programming Languages
       value: Python, Java, SQL, MATLAB, R
     - name: Tools
-      value: PyTorch, NumPy, Pandas, Matplotlib, OR-Tools, OpenCV, Gym
+      value: PyTorch, NumPy, Pandas, Matplotlib, OR-Tools, NetworkX, Gym
 #    - name: References
 #      value: Can be found in the pdf-version of my CV (at the top of this webpage)
 
@@ -28,111 +28,89 @@
 - title: Academic Interests
   type: list
   contents:
-    - Optimization
+    - Combinatorial Optimization
     - Graph Neural Networks
+    - Reinforcement Learning
 
 - title: Education
   type: time_table
   contents:
-    - title: MSc in Data Science
-      institution: École Polytechnique Fédérale de Lausanne (EPFL), Switzerland
-      year: Sep '22 - Present
-      description:
-        - title: Current Courses
-          contents:
-            - (CS-503) Visual Intelligence
-            - (CS-456) Reinforcement Learning
-            - (EE-452) Network Machine Learning
-            - (COM-490) Large-Scale Data Science For Real-World Data
-            - (HUM-433) How People Learn II
-#            - (MATH-413) Statistics for Data Science
-#            - "(EE-556) Mathematics of Data: from Theory to Computation"
-#            - (CS-430) Intelligent Agents
-#            - (CS-433) Machine Learning
-#            - (HUM-432) How People Learn
-    - title: BSc in Data Science and Artificial Intelligence,
+    - title: BSc Data Science & Artificial Intelligence
       institution: Maastricht University, The Netherlands
-      year: Sep '19 - Jul '22
+      year: Sep '21 - Present
       description:
-        - Graduated summa cum laude, 9.50/10 GPA
-        - Ranked 1st out of 104 students within a similar cohort
-        - Rewarded 9.5/10 for bachelor thesis "Multi-Agent Reinforcement Learning with Graph Neural Networks for Online Multi-Hoist Scheduling"
-        - Audited master-level courses surrounding Artificial Intelligence
+        - Summa cum laude track, 9.0/10.0 GPA.
+        - title: Relevant Courses
+          contents:
+            - Graph Theory
+            - Linear Programming
+            - Machine Learning
+            - Theoretical Computer Science
+    - title: Short Academic Program in Artificial Intelligence & Machine Learning
+      institution: University of Oxford, United Kingdom
+      year: Jul '23 - August '23
+      description:
+        - Completed with A+ grade.
+        - Cultivated practical and theoretical proficiency in generative models, reinforcement learning, and graph neural networks.
+        - Implemented (variational) autoencoders, GANs, diffusion models, DQN, PPO, actor-critic, and GCN.
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Intern
-      institution: InstaDeep, France
-      year: July '23 - Present
-      description:
-        - Internship about Offline Reinforcement Learning for Combinatorial Optimization at InstaDeep's Research department in Paris. The objective is to design and implement a multi-game agent trained on environments from the <a href="https://github.com/instadeepai/jumanji">Jumanji suite</a>, assessing the impact of architectural choices on performance and generalization capabilities.
-    - title: Chief AI Strategist
-      institution: Rounded.News, Sweden
-      year: May '23 - Present
-      description:
-        - At Rounded.News, we're breaking filter bubbles with AI-powered news. Our platform gives you a personalized news overview that showcases a range of opinions and helps you stay informed on topics that matter most to you
-    - title: Research Assistant
-      institution: Laboratory for Information and Inference Systems @ EPFL, Switzerland
-      year: Nov '22 - Present
-      description:
-        - '<b>Competences:</b> Python, reinforcement learning, graph neural networks, combinatorial optimization, scheduling'
-        - title: Projects
-          contents:
-            - Co-authored research about self-supervised learning for combinatorial optimization problems and submitted it to a conference
-            - Currently working on a project about hospital staff scheduling using machine learning methods
-
-    - title: Part-Time Al Research Intern
       institution: Aucos AG, Germany
-      year: Feb '21 - Aug '22
+      year: April '23 - Present
       description:
-        - '<b>Competences:</b> Python, computer vision, planning, graph representational learning, (multi-agent) reinforcement learning'
+        - '<b>Skills:</b> Computer Vision, Transfer Learning, Constraint Optimization, OR-Tools, NetworkX'
         - title: Projects
           contents:
-          - Developed a pipeline for multi-camera multi-object tracking through production lines
-          - Designed and created software for generating optimal production plant schematics
-          - Devised an approach for optimizing the throughput of production lines
+            - Developed constraint optimization model to improve packing.
+            - Programmed software for monocular depth estimation, stereo vision, multi-camera multi-object tracking, and object detection.
+    - title: Data Analytics Intern
+      institution: HBI Bisscheroux BV, The Netherlands
+      year: Sep '22 - Feb '23
+      description:
+        - '<b>Skills:</b> Data Analytics, Data Visualization, Power BI, Anomaly Detection'
+        - title: Projects
+          contents:
+          - Developed dashboard for monitoring room quality and device readings.
+          - Implemented anomaly detection pipeline for hardware failure.
+          - Devised ETL pipeline, data dictionary, and data governance framework for AWS data lakes.
+    - title: International Relations Intern
+      institution: Taipei City Mayor's Office of External Affairs, Taiwan
+      year: Apr '21 - Aug '21
+      description:
+        - '<b>Skills:</b> Intercultural Communication, Diplomacy, Translation'
+        - title: Projects
+          contents:
+            - Managed communications channel with delegates from 80 foreign embassies/companies in Taipei City.
+            - Published social media posts in English, Mandarin, German, and Spanish for mayor and deputy mayors.
+            - Organized meeting agendas and collaborations with 3 sister cities.
 
-- title: Awards and Honours
+- title: Awards
   type: time_table
   contents:
-    - title: Master's Excellence Fellowship, EPFL
-      year: Sep '23, Sep '22
-      description:
-        - Two-year fellowship valued at 40,000 CHF, awarded to ~3% of EPFL master students based on outstanding academic records
-    - title: CS-503 Visual Intelligence Best Project Award
+    - title: Nutanix Advancing Women in Technology Scholarship
       year: Jul '23
       description:
-        - Secured first place among 14 teams, winning a free conference registration. <a href="https://arvind6599.github.io/PredatorPreyWebsite/">Link to project</a>
-    - title: Best Bachelor's Thesis Award 2023, Maastricht University
-      year: Nov '22
-      description:
-        - University-wide award valued at 500 EUR for the best bachelor's thesis research among all other students in the programme
-    - title: Honours Student, Maastricht University
-      year: Feb '21 - Aug '22
-      description:
-        - Participation in the KE@Work honours programme, a part-time research internship in industry alongside the bachelor's programme
+        - 1 of 10 selected recipients of €2,000 for demonstrated efforts of advancing women in technology.
 
 - title: Extracurricular Activities
   type: time_table
   contents:
-    - title: Public Relations Manager
-      institution: EPFL Google Developer Student Club, Switzerland
-      year: Sep '22 - March '23
+    - title: Co-Founder & Internal Commissioner
+      institution: Science & Engineering Association Limburg (SEAL), The Netherlands
+      year: Jul '22 - Sep '23
       description:
-        - Bridging the gap between theory and practice by giving the students a platform to develop their projects and participate in workshops, seminars, hackathons, and more
-    - title: Student Representative
-      institution: Department of Advanced Computing Sciences, The Netherlands
-      year: Sep '20 - Sep '22
+        - Served as board member of faculty-wide umbrella study association and liasion for 6 program-level study associations.
+        - Directed Career Exploration Series aimed to connect students with new fields and respective experts.
+    - title: Faculty Board Student Representative & Student Council Chair
+      institution: Faculty of Science & Engineering (FSE), The Netherlands
+      year: Aug '21 - Sep '23
       description:
-        - One of two student representatives of 800, responsible for raising students' issues, ensuring program quality by renewing study material, extending the curriculum by adding new courses, and looking into internal regulations of the bachelor program
-    - title: Board Member
-      institution: MSV Incognito, The Netherlands
-      year: Jul '20 - Jul '22
-      description:
-        - Treasurer, secretary, and community manager at a department-wide study association comprised of 800 members. Organized educational and social events, and launched a series of on line sessions with academic and industry researchers
-    - title: Tutor (Co-Founder)
-      institution: Inforca, The Netherlands
-      year: Sep '18 - Jul '22
-      description:
-        - Tutoring and hosting group exam-preparation sessions for undergraduate students in computer science- and mathematics-related topics
+        - Served on Faculty Board alongside Dean and Director.
+        - Represented 3,200+ students from 12 study programs.
+        - Facilitated vertical and horizontal communication between 36 student representatives in 8 representational bodies of the faculty.
+        - Organized and chaired monthly Student Council meetings.
+        - Served as project manager and co-head organizer of faculty-wide gala orchestrated within 3 months with 730 guests, €25k budget, and €6k profit.
+        - Delegated and launched student representation infographics, increasing student turnout in elections by 21%.
