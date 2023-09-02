@@ -5,5 +5,5 @@ permalink: /cv/
 title: Curriculum Vitae
 nav: true
 nav_order: 3
-cv_pdf: 'Resume.pdf'
+cv_pdf: 'Marian Chen - CV.pdf'
 ---
