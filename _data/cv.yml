@@ -10,9 +10,9 @@
     - name: Languages
       value: English (Native), German (Fluent), Spanish (Fluent), Mandarin (Fluent)
     - name: Programming Languages
-      value: Python, Java, SQL, MATLAB, R
+      value: Python, Java, SQL, MATLAB, R, C, C++
     - name: Tools
-      value: PyTorch, NumPy, Pandas, Matplotlib, OR-Tools, NetworkX, Gym
+      value: PyTorch, NumPy, Matplotlib, OR-Tools, NetworkX, Gym, Pandas, Seaborn
 #    - name: References
 #      value: Can be found in the pdf-version of my CV (at the top of this webpage)
 
@@ -30,7 +30,7 @@
   contents:
     - Combinatorial Optimization
     - Graph Neural Networks
-    - Reinforcement Learning
+    - Deep Reinforcement Learning
 
 - title: Education
   type: time_table
@@ -50,11 +50,11 @@
       institution: University of Oxford, United Kingdom
       year: Jul '23 - August '23
       description:
-        - Completed with A+ grade.
+        - Completed with a grade of A+.
         - Cultivated practical and theoretical proficiency in generative models, reinforcement learning, and graph neural networks.
         - Implemented (variational) autoencoders, GANs, diffusion models, DQN, PPO, actor-critic, and GCN.
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
     - title: Research Intern
@@ -64,7 +64,7 @@
         - '<b>Skills:</b> Computer Vision, Transfer Learning, Constraint Optimization, OR-Tools, NetworkX'
         - title: Projects
           contents:
-            - Developed constraint optimization model to improve packing.
+            - Developed a constraint optimization model to improve packing processes in manufacturing centers.
             - Programmed software for monocular depth estimation, stereo vision, multi-camera multi-object tracking, and object detection.
     - title: Data Analytics Intern
       institution: HBI Bisscheroux BV, The Netherlands
@@ -73,9 +73,9 @@
         - '<b>Skills:</b> Data Analytics, Data Visualization, Power BI, Anomaly Detection'
         - title: Projects
           contents:
-          - Developed dashboard for monitoring room quality and device readings.
-          - Implemented anomaly detection pipeline for hardware failure.
-          - Devised ETL pipeline, data dictionary, and data governance framework for AWS data lakes.
+          - Developed a dashboard for monitoring room quality and device readings; includes a mobile extension.
+          - Implemented an anomaly detection pipeline for hardware failure; discovered 3 malfunctions within 2 days.
+          - Devised an ETL pipeline, data dictionary, and data governance framework for AWS data lakes.
     - title: International Relations Intern
       institution: Taipei City Mayor's Office of External Affairs, Taiwan
       year: Apr '21 - Aug '21
@@ -83,8 +83,8 @@
         - '<b>Skills:</b> Intercultural Communication, Diplomacy, Translation'
         - title: Projects
           contents:
-            - Managed communications channel with delegates from 80 foreign embassies/companies in Taipei City.
-            - Published social media posts in English, Mandarin, German, and Spanish for mayor and deputy mayors.
+            - Managed the communications channel with delegates from 80 foreign embassies/companies in Taipei City.
+            - Published social media posts in English, Mandarin, German, and Spanish for the mayor and deputy mayors.
             - Organized meeting agendas and collaborations with 3 sister cities.
 
 - title: Awards
@@ -102,15 +102,15 @@
       institution: Science & Engineering Association Limburg (SEAL), The Netherlands
       year: Jul '22 - Sep '23
       description:
-        - Served as board member of faculty-wide umbrella study association and liasion for 6 program-level study associations.
-        - Directed Career Exploration Series aimed to connect students with new fields and respective experts.
+        - Served as a board member of the faculty-wide umbrella study association and as a liasion for 6 program-level study associations.
+        - Directed the Career Exploration Series that connected 50 participants with industry experts and academics.
     - title: Faculty Board Student Representative & Student Council Chair
       institution: Faculty of Science & Engineering (FSE), The Netherlands
       year: Aug '21 - Sep '23
       description:
-        - Served on Faculty Board alongside Dean and Director.
+        - Served as one of two student members on the Faculty Board alongside the Dean and Director.
         - Represented 3,200+ students from 12 study programs.
         - Facilitated vertical and horizontal communication between 36 student representatives in 8 representational bodies of the faculty.
         - Organized and chaired monthly Student Council meetings.
-        - Served as project manager and co-head organizer of faculty-wide gala orchestrated within 3 months with 730 guests, €25k budget, and €6k profit.
+        - Served as the project manager and co-head organizer of a faculty-wide gala organized within 3 months with 730 guests, a €25k budget, and €6k in profit.
         - Delegated and launched student representation infographics, increasing student turnout in elections by 21%.
