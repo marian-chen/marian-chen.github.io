@@ -15,5 +15,6 @@ Updating resume:
 1. Update pdf in 'assets/pdf/Resume.pdf'
 2. Update information in '_data/cv.yml'
 
-Tips:
+Additional remarks:
 - Search for file locations by pressing ctrl+shift+F, pressing 'In Project', and inputting relevant keywords
+- Anytime something is changed in _config.yml, live reload must be renewed
