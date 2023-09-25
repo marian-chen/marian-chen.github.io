@@ -3,7 +3,7 @@ enabled: true
 layout: page
 permalink: /projects/
 title: Research Projects
-description: This page serves to display notable projects I have had the privilege to work on throughout my professional career.
+description: This page serves to display notable research projects I have had the privilege to work on throughout my academic career.
 nav: true
 nav_order: 2
 #display_categories: [Research, Educational]
