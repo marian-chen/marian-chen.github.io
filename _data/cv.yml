@@ -13,8 +13,6 @@
       value: Python, Java, SQL, MATLAB, R, C, C++
     - name: Tools
       value: PyTorch, NumPy, Matplotlib, OR-Tools, NetworkX, Gym, Pandas
-#    - name: References
-#      value: Can be found in the pdf-version of my CV (at the top of this webpage)
 
 - title: Academic Interests
   type: list
@@ -85,27 +83,6 @@
             - Managed the communications channel with delegates from 80 foreign embassies/companies in Taipei City.
             - Published social media posts in English, Mandarin, German, and Spanish for the mayor and deputy mayors.
             - Organized meeting agendas and collaborations with 3 sister cities.
-
-- title: Research Projects
-  type: list
-  contents:
-    - '<b>Category Prediction in OGBN-Products Dataset:</b> Implemented a graph convolutional network (GCN) to predict the category of a product in Amazon’s product co-purchasing network. Trained on a subgraph with 100,000 nodes and achieved an accuracy of 91%.<br/> <i>Skills: PyTorch Geometric, Graph Convolutional Networks</i>'
-    - '<b>REINFORCE Algorithm for Continuous Cart Pole Environment:</b> Deployed the REINFORCE algorithm with target and policy networks such that the agent learned to strategically
-                                                                        accelerate and reach a goal state on a continuous sinusoidal hill. The agent solved the task every five attempts.<br/> <i>Skills: Reinforcement Learning, Gym, PyTorch</i>'
-    - '<b>Deep Q-Learning for Frozen Lake Environment:</b> Trained an agent to reach the goal state in the maximal, 8x8 slippery (stochastic) environment using deep Q-learning.
-                                                           The agent learned to complete the task with 100% accuracy after approximately 200 iterations.
-                                                           <br/> <i>Skills: Reinforcement Learning, Gym, PyTorch</i>'
-    - '<b>Generative Adversarial Network for Face Generation:</b> Developed a generative adversarial network (GAN) that generated new faces after training on a dataset of characters
-                                                                  from <i>The Simpsons</i>.<br/> <i>Skills: Generative Adversarial Networks, PyTorch</i>'
-    - '<b>Autoencoders for CIFAR10 Recoloring:</b> Implemented an autoencoder and U-net that recolored grayscale-converted images from the CIFAR10 dataset. Minimized average loss to approximately 0.01.<br/> <i>Skills: Autoencoders, U-Nets, Convolutional Neural Networks, PyTorch</i>'
-    - '<b>Multi-Modal Digital Assistant:</b> Collaborated with 5 teammates to create a multi-modal digital assistant that launched the GUI and addressed the
-                                             user upon face detection and recognition. Implemented the program’s response to text inputs through CFG, CYK,
-                                             NER, LSTM, and BERT. Extended the application with Google and OpenAI API, and increased usability with hand
-                                             gesture commands.<br/> <i>Skills: Computer Vision, Natural Language Processing, JavaFX</i>'
-    - '<b>3D Bounded Knapsack Problem with Polyominoes:</b> Coordinated with 6 teammates to develop a recursive algorithm that provided exact cover solutions to a 2D grid,
-                                                            given the dimensions and available pieces as input. Adapted the program to solve knapsack problems in a bounded
-                                                            3D space visualized with JavaFX. Extended the application to a Pentris game and trained a bot that outperformed
-                                                            human players using genetic algorithms.<br/> <i>Skills: Knapsack Optimization, Genetic Algorithm, JavaFX</i>'
 
 - title: Awards
   type: time_table

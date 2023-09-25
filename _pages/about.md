@@ -1,7 +1,7 @@
 ---
 enabled: true
 layout: about
-title: About
+title: About Me
 permalink: /
 nav_order: 0
 subtitle: <h5>Affiliated with <b>Maastricht University</b>, <b>Aucos AG</b>
