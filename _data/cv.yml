@@ -9,22 +9,13 @@
       value: 11 April 2002
     - name: Languages
       value: English (Native), German (Fluent), Spanish (Fluent), Mandarin (Fluent)
-    - name: Programming Languages
+    - name: Programming
       value: Python, Java, SQL, MATLAB, R, C, C++
     - name: Tools
-      value: PyTorch, NumPy, Matplotlib, OR-Tools, NetworkX, Gym, Pandas, Seaborn
+      value: PyTorch, NumPy, Matplotlib, OR-Tools, NetworkX, Gym, Pandas
 #    - name: References
 #      value: Can be found in the pdf-version of my CV (at the top of this webpage)
 
-#- title: Academic Interests
-#  type: nested_list
-#  contents:
-#    - title: Machine Learning
-#      items:
-#        - Deep Reinforcement Learning
-#        - Hierarchical Reinforcement Learning
-#        - Graph Representational Learning
-#    - title: Planning algorithms
 - title: Academic Interests
   type: list
   contents:
@@ -39,7 +30,9 @@
       institution: Maastricht University, The Netherlands
       year: Sep '21 - Present
       description:
-        - Summa cum laude track, 9.0/10.0 GPA.
+        - Teaching assistant for Discrete Mathematics, ambassador for prospective students, and mentor for first-year students.
+        - Summa cum laude track, 9.04/10.0 GPA.
+        - Thesis&#58; TBD
         - title: Relevant Courses
           contents:
             - Graph Theory
@@ -48,18 +41,24 @@
             - Theoretical Computer Science
     - title: Short Academic Program in Artificial Intelligence & Machine Learning
       institution: University of Oxford, United Kingdom
-      year: Jul '23 - August '23
+      year: Jul '23 - Aug '23
       description:
         - Completed with a grade of A+.
         - Cultivated practical and theoretical proficiency in generative models, reinforcement learning, and graph neural networks.
         - Implemented (variational) autoencoders, GANs, diffusion models, DQN, PPO, actor-critic, and GCN.
+    - title: BSc Business & Economics
+      institution: Vienna University of Economics & Business, Austria
+      year: Oct '20 - Jul '21
+      description:
+        - Transferred to pursue passion in mathematics and optimization.
+        - 1.23/5.0 GPA, ranked 1st/237 in April 2021.
 
 - title: Work Experience
   type: time_table
   contents:
     - title: Research Intern
       institution: Aucos AG, Germany
-      year: April '23 - Present
+      year: Apr '23 - Present
       description:
         - '<b>Skills:</b> Computer Vision, Transfer Learning, Constraint Optimization, OR-Tools, NetworkX'
         - title: Projects
@@ -86,6 +85,27 @@
             - Managed the communications channel with delegates from 80 foreign embassies/companies in Taipei City.
             - Published social media posts in English, Mandarin, German, and Spanish for the mayor and deputy mayors.
             - Organized meeting agendas and collaborations with 3 sister cities.
+
+- title: Research Projects
+  type: list
+  contents:
+    - '<b>Category Prediction in OGBN-Products Dataset:</b> Implemented a graph convolutional network (GCN) to predict the category of a product in Amazon’s product co-purchasing network. Trained on a subgraph with 100,000 nodes and achieved an accuracy of 91%.<br/> <i>Skills: PyTorch Geometric, Graph Convolutional Networks</i>'
+    - '<b>REINFORCE Algorithm for Continuous Cart Pole Environment:</b> Deployed the REINFORCE algorithm with target and policy networks such that the agent learned to strategically
+                                                                        accelerate and reach a goal state on a continuous sinusoidal hill. The agent solved the task every five attempts.<br/> <i>Skills: Reinforcement Learning, Gym, PyTorch</i>'
+    - '<b>Deep Q-Learning for Frozen Lake Environment:</b> Trained an agent to reach the goal state in the maximal, 8x8 slippery (stochastic) environment using deep Q-learning.
+                                                           The agent learned to complete the task with 100% accuracy after approximately 200 iterations.
+                                                           <br/> <i>Skills: Reinforcement Learning, Gym, PyTorch</i>'
+    - '<b>Generative Adversarial Network for Face Generation:</b> Developed a generative adversarial network (GAN) that generated new faces after training on a dataset of characters
+                                                                  from <i>The Simpsons</i>.<br/> <i>Skills: Generative Adversarial Networks, PyTorch</i>'
+    - '<b>Autoencoders for CIFAR10 Recoloring:</b> Implemented an autoencoder and U-net that recolored grayscale-converted images from the CIFAR10 dataset. Minimized average loss to approximately 0.01.<br/> <i>Skills: Autoencoders, U-Nets, Convolutional Neural Networks, PyTorch</i>'
+    - '<b>Multi-Modal Digital Assistant:</b> Collaborated with 5 teammates to create a multi-modal digital assistant that launched the GUI and addressed the
+                                             user upon face detection and recognition. Implemented the program’s response to text inputs through CFG, CYK,
+                                             NER, LSTM, and BERT. Extended the application with Google and OpenAI API, and increased usability with hand
+                                             gesture commands.<br/> <i>Skills: Computer Vision, Natural Language Processing, JavaFX</i>'
+    - '<b>3D Bounded Knapsack Problem with Polyominoes:</b> Coordinated with 6 teammates to develop a recursive algorithm that provided exact cover solutions to a 2D grid,
+                                                            given the dimensions and available pieces as input. Adapted the program to solve knapsack problems in a bounded
+                                                            3D space visualized with JavaFX. Extended the application to a Pentris game and trained a bot that outperformed
+                                                            human players using genetic algorithms.<br/> <i>Skills: Knapsack Optimization, Genetic Algorithm, JavaFX</i>'
 
 - title: Awards
   type: time_table
@@ -114,3 +134,22 @@
         - Organized and chaired monthly Student Council meetings.
         - Served as the project manager and co-head organizer of a faculty-wide gala organized within 3 months with 730 guests, a €25k budget, and €6k in profit.
         - Delegated and launched student representation infographics, increasing student turnout in elections by 21%.
+        - Coordinated communication for funding and co-organized the charity concert Music4Ukraine, which reached its maximum capacity (approximately 200 attendees) and raised over €500 for relief efforts.
+
+- title: References
+  type: list
+  contents:
+    - <b><a href="mailto:steven.kelk@maastrichtuniversity.nl">Prof. Dr. Steven Kelk</a></b> | Associate Professor at Maastricht University
+    - <b><a href="mailto:ralf.peeters@maastrichtuniversity.nl">Prof. Dr. Ralf Peeters</a></b> | Full Professor at Maastricht University
+    - <b><a href="mailto:b.franci@maastrichtuniversity.nl">Prof. Dr. Barbara Franci</a></b> | Assistant Professor at Maastricht University
+    - <b><a href="mailto:ana@oxfordrobotics.institute">Ana Deligny, M.Sc.</a></b> | DPhil Candidate at Oxford Robotics Institute
+
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Machine Learning
+#      items:
+#        - Deep Reinforcement Learning
+#        - Hierarchical Reinforcement Learning
+#        - Graph Representational Learning
+#    - title: Planning algorithms
