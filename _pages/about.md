@@ -29,9 +29,7 @@ program with a grade of A+ at Lady Margaret Hall, [University of Oxford](https:/
 cultivated theoretical and practical expertise of foundational concepts in **generative models**, **reinforcement learning**,
 and **graph neural networks**. Specifically, however, my fields of interests revolve around combinatorial optimization problems,
 graph neural networks, and reinforcement learning. For more information about my past projects, please feel free to check
-out the "Research Projects" section of my CV!
-
-[//]: # (my [Projects]&#40;/projects/&#41; page!)
+out my [Research Projects](/projects/) page!
 
 
 Outside of academia, I am passionate about leveraging my skills to create positive impacts in my community, having served two
